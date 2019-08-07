@@ -64,3 +64,144 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.25;
+}
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+.container header {
+	top: 0;
+	padding: 30px 5px 10px 5px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.container header nav {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container header nav a {
+	text-decoration: none;
+	color: gray;
+}
+
+
+.container footer {
+	text-align: center;
+	margin: 100px 0 20px 0;
+}
+
+.container section {
+	margin-bottom: 30px;
+}
+
+.main {
+	width: 100%;
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+}
+
+
+.main-content {
+	width: 100%;
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+}
+/* Home Styles */
+.index .head {
+	display: flex;
+	justify-content: space-between;
+}
+
+.index .head-text {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.index h1 {
+	font-size: 4em;
+	text-align: center;
+}
+
+.index .top-content {
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.index .bottom-content {
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.index .text-content {
+	padding-left: 10px;
+}
+
+.index .contact p {
+	margin: 20px 0px;
+}
+
+
+/* Services Styles */
+.services .introduc img {
+	margin-bottom: 20px;
+}
+
+.services .main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
+
+.services .item {
+	width: 48%;
+	border: 1.5px solid black;
+	margin-top: 30px;
+	padding: 20px;
+	background-color: #F4F3F4;
+}
+
+.services .learn-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1.5px solid black;
+	border-radius: 5px;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.services ul {
+	margin: 10px 0px 10px 25px;
+}
+.services li {
+	list-style-type: square;
+	margin-top: 10px;
+}
+
+.services .facts {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
